@@ -1,0 +1,13 @@
+[package]
+authors = ["jbarszczewski <jakub.barszczewski@outlook.com>"]
+edition = "2018"
+name = "rust-hash"
+version = "0.1.0"
+
+[dependencies]
+# you can check the latest version here: https://crates.io/crates/yew
+yew = "0.19"
+
+[profile.release]
+# Tell `rustc` to optimize for small code size.
+opt-level = "s"
